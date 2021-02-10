@@ -6857,7 +6857,7 @@ function () {
           if (local === _this3.guid) return last = new Promise(function (r) {
             return _this3.diff(fresh).start(r);
           });
-          return;
+
         }, // cancel()
         function (finished) {
           if (finished === void 0) {
@@ -8077,7 +8077,7 @@ injectApplyAnimatedValues(function (instance, props) {
       if (typeof instance.getAttribute(dashCase) !== 'undefined') instance.setAttribute(dashCase, attributes[name]);
     }
 
-    return;
+
   } else return false;
 }, function (style) {
   return style;
@@ -9067,11 +9067,11 @@ module.exports = function() {
     );
     err.name = 'Invariant Violation';
     throw err;
-  };
+  }
   shim.isRequired = shim;
   function getShim() {
     return shim;
-  };
+  }
   // Important!
   // Keep this list in sync with production version in `./factoryWithTypeCheckers.js`.
   var ReactPropTypes = {
@@ -12314,13 +12314,13 @@ function copy (src) {
             dst = { message: src.message };
         }
         else if (isBoolean(src)) {
-            dst = new Boolean(src);
+            dst = Boolean(src);
         }
         else if (isNumber(src)) {
-            dst = new Number(src);
+            dst = Number(src);
         }
         else if (isString(src)) {
-            dst = new String(src);
+            dst = String(src);
         }
         else if (Object.create && Object.getPrototypeOf) {
             dst = Object.create(Object.getPrototypeOf(src));

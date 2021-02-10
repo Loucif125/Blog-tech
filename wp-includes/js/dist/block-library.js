@@ -4001,7 +4001,7 @@ function __spreadArrays() {
         for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
             r[k] = a[j];
     return r;
-};
+}
 
 function __await(v) {
     return this instanceof __await ? (this.v = v, this) : new __await(v);
@@ -4036,7 +4036,7 @@ function __asyncValues(o) {
 function __makeTemplateObject(cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
-};
+}
 
 var __setModuleDefault = Object.create ? (function(o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });

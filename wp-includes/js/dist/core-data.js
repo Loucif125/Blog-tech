@@ -2959,7 +2959,7 @@ function reducer_entity(entityConfig) {
             for (_iterator.s(); !(_step = _iterator.n()).done;) {
               var _ret = _loop();
 
-              if (_ret === "continue") continue;
+              if (_ret === "continue")
             }
           } catch (err) {
             _iterator.e(err);

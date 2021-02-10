@@ -328,7 +328,7 @@ function _arrayLikeToArray(arr, len) {
 /***/ 285:
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 1.9.1 - 02-11-2019 */
+var __WEBPACK_AMD_DEFINE_RESULT__;/*! showdown v 1.9.1 - 02-11-2019 */
 (function(){
 /**
  * Created by Tivie on 13-07-2015.
@@ -8450,7 +8450,7 @@ var EventedTokenizer = /** @class */ (function () {
                 var char = this.peek();
                 if (isSpace(char)) {
                     this.consume();
-                    return;
+
                 }
                 else if (char === '/') {
                     this.transitionTo("selfClosingStartTag" /* selfClosingStartTag */);
@@ -8510,7 +8510,7 @@ var EventedTokenizer = /** @class */ (function () {
                 var char = this.peek();
                 if (isSpace(char)) {
                     this.consume();
-                    return;
+
                 }
                 else if (char === '/') {
                     this.delegate.beginAttributeValue(false);

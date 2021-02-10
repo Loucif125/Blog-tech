@@ -418,7 +418,7 @@ $init_script = <<<JS
 ( function() {
 	window._wpLoadBlockEditor = new Promise( function( resolve ) {
 		wp.domReady( function() {
-			resolve( wp.editPost.initializeEditor( 'editor', "%s", %d, %s, %s ) );
+			resolve( wp.editPost.initializeEditor( 'editor', "%s", %d, %s, %s ) )
 		} );
 	} );
 } )();

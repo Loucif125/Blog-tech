@@ -1559,7 +1559,7 @@ function createFromElement(_ref3) {
   for (var index = 0; index < length; index++) {
     var _ret = _loop(index);
 
-    if (_ret === "continue") continue;
+    if (_ret === "continue")
   }
 
   return accumulator;
@@ -2947,7 +2947,7 @@ function toTree(_ref2) {
   for (var i = 0; i < formatsLength; i++) {
     var _ret = _loop(i);
 
-    if (_ret === "continue") continue;
+    if (_ret === "continue")
   }
 
   return tree;

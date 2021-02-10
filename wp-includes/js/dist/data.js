@@ -764,7 +764,7 @@ function symbolObservablePonyfill(root) {
 	}
 
 	return result;
-};
+}
 
 
 /***/ }),
